@@ -1,3 +1,22 @@
+/*  SM Player Clutched
+ *
+ *  Copyright (C) 2018 Francisco 'Franc1sco' García
+ *	and hAlexrr
+ * 
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) 
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with 
+ * this program. If not, see http://www.gnu.org/licenses/.
+ */
+ 
+
 #pragma semicolon 1 
 
 #define PLUGIN_AUTHOR "Franc1sco franug and hAlexrr" // credits to hAlexrr because i used this as base - https://forums.alliedmods.net/showthread.php?p=2621710#post2621710
@@ -18,7 +37,7 @@ EngineVersion g_Game;
 
 public Plugin myinfo =  
 { 
-    name = "Player Clutched", 
+    name = "SM Player Clutched", 
     author = PLUGIN_AUTHOR, 
     description = "Gives an announcement when a player clutches the round", 
     version = PLUGIN_VERSION, 
