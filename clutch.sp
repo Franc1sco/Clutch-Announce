@@ -46,6 +46,8 @@ public Plugin myinfo =
 
 public void OnPluginStart() 
 { 
+	CreateConVar("sm_clutch_announce_version", PLUGIN_VERSION, "version", FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY);
+	
 	sm_players_alive_clutch = CreateConVar("sm_players_alive_clutch", "3", "The amount of players needed to be alive on the opposite team for it to be considered a clutch"); 
 	
 	HookEvent("round_end", Event_RoundEnd); 
